@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at [ROAS Thrust](https://www.hkust-gz.edu.cn/academi
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof Typed !== 'undefined') {
     new Typed('#motto', {
-      strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
+      strings: ["Flowing water does not vie to be first; its contest is to flow on unceasingly."],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     script.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12';
     script.onload = function() {
       new Typed('#motto', {
-        strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
+        strings: ["Flowing water does not vie to be first; its contest is to flow on unceasingly."],
         typeSpeed: 50,
         backSpeed: 30,
         loop: true,
@@ -1030,45 +1030,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-<!-- 添加Typed.js库 -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
 
-<!-- <script>
-document.addEventListener('DOMContentLoaded', () => {
-    // 初始化打字机效果
-    new Typed('#motto', {
-        strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
-        typeSpeed: 50,
-        backSpeed: 30,
-        loop: false,
-        startDelay: 1000,
-        showCursor: true,
-        cursorChar: '|',
-        autoInsertCss: true
-    });
-});
-</script> -->
-
-<!-- 为打字机效果添加样式 -->
-<!-- <style>
-.typed-motto {
-    font-style: italic;
-    font-size: 24px;
-    margin: 20px 0;
-    color: #333;
-    min-height: 36px;
-    background: -webkit-linear-gradient(left, #1772d0, #6c5ce7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Georgia', serif;
-    font-weight: 500;
-    text-align: center;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-
-.typed-cursor {
-    color: #1772d0;
-    font-weight: bold;
-}
-</style> -->
 
