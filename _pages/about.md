@@ -88,6 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # 📰 News
 <!-- <div class="news-container"> -->
+- [2025-06] 3 Papers are accepted by ICCV 2025.
+- [2025-06] We are pleased to announce the release of [PosterCraft](https://ephemeral182.github.io/PosterCraft/)! A Unified Framework for High-Quality Aesthetic Poster Generation.
 - [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
 - [2025-02] 3 Papers are accepted by CVPR 2025.
 - [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
