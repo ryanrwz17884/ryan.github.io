@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at [ROAS Thrust](https://www.hkust-gz.edu.cn/academi
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof Typed !== 'undefined') {
     new Typed('#motto', {
-      strings: ["Flowing water does not vie to be first; its contest is to flow on unceasingly."],
+      strings: ["Exploring this world, pursuing research that's fun and meaningful."],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     script.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12';
     script.onload = function() {
       new Typed('#motto', {
-        strings: ["Flowing water does not vie to be first; its contest is to flow on unceasingly."],
+        strings: ["Exploring this world, pursuing research that's fun and meaningful."],
         typeSpeed: 50,
         backSpeed: 30,
         loop: true,
