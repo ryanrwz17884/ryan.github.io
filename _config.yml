@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ryan"
-  avatar           : "WechatIMG3790.jpg"
-  bio              : "CV Researcher@HKUST(GZ)"
-  location         : "Guangzhou, China"
+  name             : "Ryan Zhang"
+  avatar           : "IMG_4638.jpg"
+  bio              : "Student@Dulwich College Shanghai Pudong, Class of '26"
+  location         : "Shanghai, China"
   employer         : 
-  googlescholar    : "https://scholar.google.com/citations?user=1sGXZ-wAAAAJ&hl=en"
-  email            : tye610@connect.hkust-gz.edu.cn
+  googlescholar    : 
+  email            : ryan.zhang26@stu.dulwich.org 
   researchgate     :  
   uri              :
   bitbucket        :
@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : tian-ye-823053252/
+  linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :
