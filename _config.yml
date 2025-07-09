@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Personal Page"
 title_separator          : "-"
-name                     : &name "Tian Ye"
+name                     : &name "Ryan"
 description              : &description "personal description"
 url                      : https://owen718.github.io # the base hostname & protocol for your site e.g. "httpss://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tian Ye"
+  name             : "Ryan"
   avatar           : "WechatIMG3790.jpg"
   bio              : "CV Researcher@HKUST(GZ)"
   location         : "Guangzhou, China"
