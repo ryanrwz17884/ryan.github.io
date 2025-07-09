@@ -11,9 +11,9 @@ title                    : "Personal Page"
 title_separator          : "-"
 name                     : &name "Ryan"
 description              : &description "personal description"
-url                      : https://owen718.github.io # the base hostname & protocol for your site e.g. "httpss://mmistakes.github.io"
+url                      : https://ryanrwz17884.github.io # the base hostname & protocol for your site e.g. "httpss://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "owen718/owen718.github.io"
+repository               : "ryanrwz17884/ryan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Owen718"
+  github           : "ryanrwz17884"
   google_plus      :
   keybase          :
   instagram        :
