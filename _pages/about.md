@@ -10,6 +10,8 @@ redirect_from:
 ## 👋 About Me
 I am Ryan, a passionate student leader and aspiring researcher currently studying at Dulwich College Shanghai Pudong. With strong academic performance and diverse leadership experience, I am committed to making positive impacts in both academic and community settings.
 
+
+
 <div id="motto" class="typed-motto"></div>
 
 <script>
