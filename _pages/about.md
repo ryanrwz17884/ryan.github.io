@@ -88,6 +88,201 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 
+## 📸 Photo Gallery
+
+<div class="photo-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide active">
+            <img src="/images/photo1.jpg" alt="Photo 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/photo2.jpg" alt="Photo 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/photo3.jpg" alt="Photo 3">
+        </div>
+    </div>
+    
+    <div class="carousel-controls">
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">❮</button>
+        <button class="carousel-btn next" onclick="changeSlide(1)">❯</button>
+    </div>
+    
+    <div class="carousel-indicators">
+        <span class="indicator active" onclick="currentSlide(1)"></span>
+        <span class="indicator" onclick="currentSlide(2)"></span>
+        <span class="indicator" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+
+<script>
+let currentSlideIndex = 0;
+const slides = document.querySelectorAll('.carousel-slide');
+const indicators = document.querySelectorAll('.indicator');
+
+function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    indicators.forEach(indicator => indicator.classList.remove('active'));
+    
+    slides[index].classList.add('active');
+    indicators[index].classList.add('active');
+}
+
+function changeSlide(direction) {
+    currentSlideIndex += direction;
+    
+    if (currentSlideIndex >= slides.length) {
+        currentSlideIndex = 0;
+    } else if (currentSlideIndex < 0) {
+        currentSlideIndex = slides.length - 1;
+    }
+    
+    showSlide(currentSlideIndex);
+}
+
+function currentSlide(index) {
+    currentSlideIndex = index - 1;
+    showSlide(currentSlideIndex);
+}
+
+// 自动播放功能
+setInterval(() => {
+    changeSlide(1);
+}, 4000); // 每4秒切换一次
+</script>
+
+<style>
+.photo-carousel {
+    max-width: 800px;
+    margin: 30px auto;
+    position: relative;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    pointer-events: none;
+}
+
+.carousel-btn {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-btn:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background: rgba(248, 249, 250, 0.9);
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(23, 114, 208, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background: #1772d0;
+    transform: scale(1.2);
+}
+
+.indicator:hover {
+    background: rgba(23, 114, 208, 0.6);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .photo-carousel {
+        max-width: 95%;
+        margin: 20px auto;
+    }
+    
+    .carousel-container {
+        height: 300px;
+    }
+    
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .carousel-controls {
+        padding: 0 10px;
+    }
+}
+
+/* 添加进入动画 */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.photo-carousel {
+    animation: slideIn 1s ease-out;
+}
+</style>
+
 # 📰 Achievements & News
 <!-- <div class="news-container"> -->
 - [2024-Summer] Earned CPR, First-Aid, and AED Certification, enhancing my commitment to health and safety.
