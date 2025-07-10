@@ -19,7 +19,7 @@
 ### 3. 更新网站代码
 在 `_pages/about.md` 文件中，找到这样的代码：
 ```javascript
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YOUR_MAP_ID"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3EYHDNKAlND162fMWLNpEkmyBfGF_5dn4M6RPjiFnMw"></script>
 ```
 
 将 `YOUR_MAP_ID` 替换为ClustrMaps提供给你的地图ID。
